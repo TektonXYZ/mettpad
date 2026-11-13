@@ -1,0 +1,29 @@
+{
+  "name": "mettpad",
+  "version": "0.1.0",
+  "private": false,
+  "license": "MIT",
+  "scripts": {
+    "dev": "next dev -p 3310",
+    "build": "next build",
+    "start": "npx serve out -l 3310"
+  },
+  "dependencies": {
+    "@meteora-ag/cp-amm-sdk": "1.4.10",
+    "@meteora-ag/dynamic-bonding-curve-sdk": "1.5.13",
+    "@solana/spl-token": "0.4.14",
+    "@solana/spl-token-metadata": "0.1.6",
+    "@solana/web3.js": "^1.98.0",
+    "bn.js": "^5.2.1",
+    "buffer": "^6.0.3",
+    "next": "14.2.15",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  },
+  "devDependencies": {
+    "@types/bn.js": "^5.2.0",
+    "@types/node": "^20.14.0",
+    "@types/react": "^18.3.3",
+    "typescript": "^5.5.4"
+  }
+}
